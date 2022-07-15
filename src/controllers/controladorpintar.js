@@ -1,6 +1,8 @@
 export function pintarProductos(productos){
 
     let fila = document.getElementById("fila")
+    fila.innerHTML= ""
+
     productos.forEach(function(producto){
 
     let columna = document.createElement("div")
@@ -17,14 +19,14 @@ export function pintarProductos(productos){
     nombreProducto.textContent = producto.nombre
 
     let precioProducto = document.createElement("h5")
-    precioProducto.classList.add("fw-bold")
-    precioProducto.textContent ='$ '+ producto.precio + ' COP'
+    precioProducto.classList.add
+    precioProducto.textContent ='$ '+ producto.precio + ' COP' 
 
-    columna.addEventListener("mouseover", function(){
+    columna.addEventListener("mouseover", function(evento){
     FotoProducto.src = producto.fotos[1]
    })
 
-    columna.addEventListener("mouseleave", function(){
+    columna.addEventListener("mouseleave", function(evento){
     FotoProducto.src = producto.fotos[0]
    })
    

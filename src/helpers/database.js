@@ -5,7 +5,7 @@ export let productosBD = [
        precio : '27.500.000',
        cantidad : '0',
        fotos : ['https://firebasestorage.googleapis.com/v0/b/tiendatcc-bccd5.appspot.com/o/reloj1.webp?alt=media&token=35ecfa1a-97e4-4105-b7f1-d9c46ab015ea'],
-       descripcion : 'Reloj Cartier de mujer'
+       descripcion : 'Reloj Cartier de mujer,tamaño mediano, movimiento de cuarzo. Caja de acero, corona octogonal de acero decorada con un cabujón de espinela sintética. Esfera graneada plateada. Agujas de acero azulado en forma de espada. Cristal de zafiro. Brazalete de acero. Dimensiones de la caja: 30 mm x 25 mm. Grosor: 6,65 mm. Hermético hasta 3 bares (~30 metros).'
    },
    
   {
@@ -81,10 +81,5 @@ export let productosBD = [
        descripcion : 'Reloj Cartier de mujer'
    }
    
-   
-   
-   
-
-
 
 ]
