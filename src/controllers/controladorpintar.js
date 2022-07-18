@@ -22,6 +22,14 @@ export function pintarProductos(productos){
     precioProducto.classList.add
     precioProducto.textContent ='$ '+ producto.precio + ' COP' 
 
+    let compra = document.createElement("button")
+    compra.classList.add("w-50","align-self-center", "text-center","btn", "btn-dark", "mb-3")
+    compra.textContent = 'Añadir a la cesta'
+
+    let descripcion= document.createElement("p")
+    descripcion.classList.add("d-none")
+    descripcion.textContent = producto.descripcion
+
     columna.addEventListener("mouseover", function(evento){
     FotoProducto.src = producto.fotos[1]
    })
@@ -33,6 +41,8 @@ export function pintarProductos(productos){
     tarjeta.appendChild(FotoProducto)
     tarjeta.appendChild(nombreProducto)
     tarjeta.appendChild(precioProducto)
+    tarjeta.appendChild(compra)
+    tarjeta.appendChild(descripcion)
     columna.appendChild(tarjeta)
     fila.appendChild(columna)
 })
