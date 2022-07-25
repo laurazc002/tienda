@@ -1,6 +1,0 @@
-
-window[window["TiktokAnalyticsObject"]].instance("C70ASRVOUAG086PM0NNG").setAdvancedMatchingAvailableProperties({"email":true,"phone_number":true,"auto_email":false,"auto_phone_number":false});
-window[window["TiktokAnalyticsObject"]].instance("C70ASRVOUAG086PM0NNG").setPixelInfo && window[window["TiktokAnalyticsObject"]].instance("C70ASRVOUAG086PM0NNG").setPixelInfo({status: 0, name: "Cartier", advertiserID: "7030804181837496321", setupMode: 1, partner: "", is_onsite: false });
-window[window["TiktokAnalyticsObject"]].setPCMDomain && window[window["TiktokAnalyticsObject"]].setPCMDomain("cartier.com");
-window[window["TiktokAnalyticsObject"]].setPCMConfig && window[window["TiktokAnalyticsObject"]].setPCMConfig([]);
-window[window["TiktokAnalyticsObject"]].enableFirstPartyCookie && window[window["TiktokAnalyticsObject"]].enableFirstPartyCookie(false);

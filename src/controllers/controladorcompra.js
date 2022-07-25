@@ -42,6 +42,14 @@ let botonagregar = document.getElementById('agregar')
 //agregamos carrito de compras
 
 agregar.addEventListener('click', function(){
+
+    let alerta = document.getElementById('alerta')
+    alerta.classList.remove('invisible')
+
+    setTimeout(function(){
+        alerta.classList.add('invisible')
+    },3000)
+
     let cantidad = document.getElementById('cantidad').value
     producto.cantidad = cantidad
 

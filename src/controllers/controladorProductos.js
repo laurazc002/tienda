@@ -1,3 +1,5 @@
+console.log("hola")
+
 // se trae los datos de los productos (Conusltar la BD)
 import { productosBD } from "../helpers/database.js"
 console.log(productosBD)
