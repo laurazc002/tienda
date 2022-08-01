@@ -58,6 +58,11 @@ agregar.addEventListener('click', function(){
     // almaceno el carrito en el localstorage
     localStorage.setItem('carrito',JSON.stringify(carrito))
 
+    //recorrer el arreglo carrito y capturar la cantidad 
+    carrito.forEach(function(producto){
+        console.log(producto.cantidad)
+    })
+
 
 })
 

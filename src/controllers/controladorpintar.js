@@ -29,6 +29,7 @@ export function pintarProductos(productos){
     let descripcion= document.createElement("p")
     descripcion.classList.add("d-none")
     descripcion.textContent = producto.descripcion
+    
 
     columna.addEventListener("mouseover", function(evento){
     FotoProducto.src = producto.fotos[1]
