@@ -57,8 +57,24 @@
     </header>
 
     
-    <main>
-        <div class="container my-5" id="contenedor">
+    <main class="mt-5">
+        <div class="container" id="contenedor">
+          
+        <h1>These are our products</h1>
+
+        <table id="myTable" class="table table-borderless table-striped table-earning">
+          <thead>
+            <tr>
+              <th>Name</th>
+              <th>Image</th>
+              <th>Description</th>
+              <th>Price per unit</th>
+              <th>Quantity</th>
+            </tr>
+          </thead>
+          <tbody id="tableBody"></tbody>
+        </table>
+
             
         </div>
         <div class="container mb-5">
@@ -211,9 +227,9 @@
     </footer>
 
 
-    
-    <script src="../controllers/convertirmoneda.js"></script>
-    <script src="../controllers/controladorResumenCompra.js " type="module"></script>
+  
+    <script src="../controllers/resumencompra2.js" type="module"></script>
+    <!--script src="../controllers/controladorResumenCompra.js " type="module"></!--script-->
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.5/dist/umd/popper.min.js" 
     integrity="sha384-Xe+8cL9oJa6tN/veChSP7q+mnSPaj5Bcu9mPX5F5xIGE0DVittaqT5lorf0EI7Vk" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.min.js" 

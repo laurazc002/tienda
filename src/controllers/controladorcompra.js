@@ -27,6 +27,10 @@ precio.textContent = producto.precio
 let descripcion = document.getElementById('descripcion')
 descripcion.textContent = producto.descripcion
 
+//poner case
+let popularidad = document.getElementById('icono')
+popularidad.textContent = producto.popularidad
+
 // capturar la cantidad del producto seleccionado
 // capturamos el value del input
 

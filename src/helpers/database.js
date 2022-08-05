@@ -2,7 +2,7 @@ export let productosBD = [
 
     {
        nombre : 'TANK FRANÇAISE WATCH',
-       precio : '27.500.000',
+       precio : '27500000',
        cantidad : '0',
        fotos : ['https://firebasestorage.googleapis.com/v0/b/tiendatcc-bccd5.appspot.com/o/reloj1.webp?alt=media&token=35ecfa1a-97e4-4105-b7f1-d9c46ab015ea','https://firebasestorage.googleapis.com/v0/b/tiendatcc-bccd5.appspot.com/o/reloj1...webp?alt=media&token=188e2720-1cf6-480e-b10d-086b4ed1e71e'],
        descripcion : 'Reloj tamaño mediano, movimiento de cuarzo. Caja de acero, corona octogonal de acero decorada con un cabujón de espinela sintética. Esfera graneada plateada. Agujas de acero azulado en forma de espada. Cristal de zafiro. Brazalete de acero. Dimensiones de la caja: 30 mm x 25 mm. Grosor: 6,65 mm. Hermético hasta 3 bares (~30 metros).',
@@ -11,7 +11,7 @@ export let productosBD = [
    
   {
        nombre : 'TANK FRANÇAISE WATCH',
-       precio : '40.100.000',
+       precio : '40100000',
        cantidad : '0',
        fotos : ['https://firebasestorage.googleapis.com/v0/b/tiendatcc-bccd5.appspot.com/o/reloj2....webp?alt=media&token=ac83e308-c47c-4df9-bcfa-62ae88846b88','https://firebasestorage.googleapis.com/v0/b/tiendatcc-bccd5.appspot.com/o/reloj2...webp?alt=media&token=008d51c1-c9dd-4d71-a4bd-adb47f7e391b'],
        descripcion : 'Reloj tamaño mediano, movimiento de cuarzo. Caja de acero engastada con 26 diamantes talla brillante con un total de 0,63 quilates. Corona poliédrica decorada con una espinela sintética. Esfera plateada. Agujas de acero azulado en forma de espada. Cristal de zafiro. Brazalete de acero. Dimensiones de la caja: 30 mm x 25 mm. Grosor: 6,65 mm. Hermético hasta 3 bares (~30 metros).',
@@ -20,7 +20,7 @@ export let productosBD = [
    
    {
        nombre : 'TANK LOUIS CARTIER WATCH',
-       precio : '149.500.000',
+       precio : '149500000',
        cantidad : '0',
        fotos : ['https://firebasestorage.googleapis.com/v0/b/tiendatcc-bccd5.appspot.com/o/reloj3.webp?alt=media&token=480858c3-4796-4aeb-b80a-cdc20be679c3','https://firebasestorage.googleapis.com/v0/b/tiendatcc-bccd5.appspot.com/o/reloj3...webp?alt=media&token=cc087e3a-17ba-4564-8a8f-d7ff73ddf0d8'],
        descripcion : 'Reloj tamaño grande, movimiento mecánico Manufactura de cuerda manual calibre 1917 MC. Caja y corona perlada de oro rosa 750/1000 engastadas con 41 diamantes talla brillante con un total de 0,66 quilates. Esfera plateada. Agujas de acero azulado en forma de espada. Cristal mineral. Brazalete de oro rosa 750/1000. Dimensiones de la caja: 33,7 mm x 25,5 mm. Grosor: 6,6 mm. Hermético hasta 3 bares (~30 metros).',
@@ -29,7 +29,7 @@ export let productosBD = [
    
    {
        nombre : 'PANTHÈRE DE CARTIER WATCH',
-       precio : '119.000.000',
+       precio : '119000000',
        cantidad : '0',
        fotos : ['https://firebasestorage.googleapis.com/v0/b/tiendatcc-bccd5.appspot.com/o/reloj4.....webp?alt=media&token=000dc8e6-931c-4502-8c31-0c8219f47dec','https://firebasestorage.googleapis.com/v0/b/tiendatcc-bccd5.appspot.com/o/reloj4...webp?alt=media&token=6c6bbd6b-93f2-4fb3-ba62-aa85f07c8fd2'],
        descripcion : 'Reloj tamaño pequeño, movimiento de cuarzo. Caja de acero. Dimensiones: 22 mm x 30 mm. Grosor: 6 mm. Corona decorada con una espinela sintética azul. Esfera con degradado del negro al gris que forma una diagonal en el centro. Agujas en forma de espada. Brazalete de acero. Hermético hasta 3 bares (~30 metros).',
@@ -38,7 +38,7 @@ export let productosBD = [
   
    {
        nombre : 'PANTHÈRE DE CARTIER WATCH',
-       precio : '382.000.000',
+       precio : '382000000',
        cantidad : '0',
        fotos : ['https://firebasestorage.googleapis.com/v0/b/tiendatcc-bccd5.appspot.com/o/reloj5...webp?alt=media&token=42edde32-a527-487d-ae23-6cfa1b5a6e4b','https://firebasestorage.googleapis.com/v0/b/tiendatcc-bccd5.appspot.com/o/reloj5....webp?alt=media&token=2843f819-c5ab-4b9d-b67f-3443c6318b16'],
        descripcion : 'Reloj Cartier tamaño pequeño, movimiento de cuarzo. Caja, corona y brazalete de oro rosa 750/1000 engastados con 497 diamantes talla brillante con un total de 4,18 quilates. Agujas de acero azulado en forma de espada. Dimensiones: 30 mm x 22 mm. Grosor: 6 mm. Hermético hasta 3 bares (~30 metros).',

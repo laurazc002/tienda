@@ -20,7 +20,7 @@ export function pintarProductos(productos){
 
     let precioProducto = document.createElement("h5")
     precioProducto.classList.add
-    precioProducto.textContent ='$ '+ producto.precio + ' COP' 
+    precioProducto.textContent ='$'+ producto.precio + 'COP' 
 
     let compra = document.createElement("button")
     compra.classList.add("w-50","align-self-center", "text-center","btn", "btn-dark", "mb-3")
@@ -29,6 +29,10 @@ export function pintarProductos(productos){
     let descripcion= document.createElement("p")
     descripcion.classList.add("d-none")
     descripcion.textContent = producto.descripcion
+
+    let popularidad = document.createElement("h3")
+    popularidad.classList.add("d-none")
+    popularidad.textContent = producto.popularidad
     
 
     columna.addEventListener("mouseover", function(evento){
@@ -44,6 +48,7 @@ export function pintarProductos(productos){
     tarjeta.appendChild(precioProducto)
     tarjeta.appendChild(compra)
     tarjeta.appendChild(descripcion)
+    tarjeta.appendChild(popularidad)
     columna.appendChild(tarjeta)
     fila.appendChild(columna)
 })
