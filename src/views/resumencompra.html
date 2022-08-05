@@ -61,6 +61,18 @@
             </div>
           </div>
         </div>
+
+<section class="text-center">
+<h2>Conversor de moneda.</h2>
+<p>
+  <label>USD</label>
+  <input id="inputDolares" type="number" placeholder="Dolares" oninput="dolaresPesos(this.value)" onchange="dolaresPesos(this.value)">
+</p>
+<p>
+  <label>COP</label>
+  <input id="inputPesos" type="number" placeholder="Pesos Colombianos" oninput="pesosDolares(this.value)" onchange="pesosDolares(this.value)">
+</p>
+</section>
     </main>
 
     <section>
@@ -190,7 +202,7 @@
 
 
     
-
+    <script src="../controllers/convertirmoneda.js"></script>
     <script src="../controllers/controladorResumenCompra.js " type="module"></script>
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.5/dist/umd/popper.min.js" 
     integrity="sha384-Xe+8cL9oJa6tN/veChSP7q+mnSPaj5Bcu9mPX5F5xIGE0DVittaqT5lorf0EI7Vk" crossorigin="anonymous"></script>
