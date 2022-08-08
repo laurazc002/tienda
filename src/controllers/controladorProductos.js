@@ -21,8 +21,8 @@ contenedor.addEventListener('click', function(evento){
     
 console.log(producto)
 
-localStorage.setItem("infoProducto",JSON.stringify(producto))
-console.log(localStorage.getItem("infoProducto"))
+sessionStorage.setItem("infoProducto",JSON.stringify(producto))
+console.log(sessionStorage.getItem("infoProducto"))
 
 window.location.href = "./src/views/ampliarinfo.html"
 

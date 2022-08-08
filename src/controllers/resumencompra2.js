@@ -1,5 +1,5 @@
 //TRAER CARRITO
-let carrito=JSON.parse(localStorage.getItem("carrito"))
+let carrito=JSON.parse(sessionStorage.getItem("carrito"))
 console.log(carrito)
 
 
@@ -64,7 +64,6 @@ function pesosDolares(valNum) {
       quantity.onchange = function () {
         
         item.cantidad = quantity.value.toString();
-        console.log("oe")
         calcularCantidades(items);
       };
       quantityCell.appendChild(quantity);

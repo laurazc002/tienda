@@ -1,19 +1,19 @@
-console.log(JSON.parse(localStorage.getItem("infoProducto")))
-let producto = JSON.parse(localStorage.getItem('infoProducto'))
+console.log(JSON.parse(sessionStorage.getItem("infoProducto")))
+let producto = JSON.parse(sessionStorage.getItem('infoProducto'))
 
 
 let carrito
 //revisar si hay productos en el carrito
-if (JSON.parse(localStorage.getItem('carrito')) == null){
+if (JSON.parse(sessionStorage.getItem('carrito')) == null){
 
     carrito = []
 
     }
 else{
-    carrito = JSON.parse(localStorage.getItem('carrito'))
+    carrito = JSON.parse(sessionStorage.getItem('carrito'))
 }
 
-console.log(JSON.parse(localStorage.getItem('carrito')))
+console.log(JSON.parse(sessionStorage.getItem('carrito')))
 
 let foto = document.getElementById('foto')
 foto.src = producto.foto
@@ -59,8 +59,8 @@ agregar.addEventListener('click', function(){
 
     carrito.push(producto)
 
-    // almaceno el carrito en el localstorage
-    localStorage.setItem('carrito',JSON.stringify(carrito))
+    // almaceno el carrito en el sessionStorage
+    sessionStorage.setItem('carrito',JSON.stringify(carrito))
 
     //recorrer el arreglo carrito y capturar la cantidad 
     carrito.forEach(function(producto){
