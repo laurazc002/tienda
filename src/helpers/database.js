@@ -5,7 +5,7 @@ export let productosBD = [
        precio : '27500000',
        cantidad : '0',
        fotos : ['https://firebasestorage.googleapis.com/v0/b/tiendatcc-bccd5.appspot.com/o/reloj1.webp?alt=media&token=35ecfa1a-97e4-4105-b7f1-d9c46ab015ea','https://firebasestorage.googleapis.com/v0/b/tiendatcc-bccd5.appspot.com/o/reloj1...webp?alt=media&token=188e2720-1cf6-480e-b10d-086b4ed1e71e'],
-       descripcion : 'Reloj tamaño mediano, movimiento de cuarzo. Caja de acero, corona octogonal de acero decorada con un cabujón de espinela sintética. Esfera graneada plateada. Agujas de acero azulado en forma de espada. Cristal de zafiro. Brazalete de acero. Dimensiones de la caja: 30 mm x 25 mm. Grosor: 6,65 mm. Hermético hasta 3 bares (~30 metros).',
+       descripcion : 'Tank Française watch, small model, quartz movement. Steel case, octagonal crown in yellow gold set with a synthetic cabochon-shaped spinel, silver-grained dial, blued-steel sword-shaped hands, sapphire crystal, two-tone bracelet. Case dimensions: 25 mm x 20 mm, thickness: 6.76 mm. Water-resistant to 3 bar (approx. 30 metres).',
        popularidad: 4
    },
    
@@ -14,7 +14,7 @@ export let productosBD = [
        precio : '40100000',
        cantidad : '0',
        fotos : ['https://firebasestorage.googleapis.com/v0/b/tiendatcc-bccd5.appspot.com/o/reloj2....webp?alt=media&token=ac83e308-c47c-4df9-bcfa-62ae88846b88','https://firebasestorage.googleapis.com/v0/b/tiendatcc-bccd5.appspot.com/o/reloj2...webp?alt=media&token=008d51c1-c9dd-4d71-a4bd-adb47f7e391b'],
-       descripcion : 'Reloj tamaño mediano, movimiento de cuarzo. Caja de acero engastada con 26 diamantes talla brillante con un total de 0,63 quilates. Corona poliédrica decorada con una espinela sintética. Esfera plateada. Agujas de acero azulado en forma de espada. Cristal de zafiro. Brazalete de acero. Dimensiones de la caja: 30 mm x 25 mm. Grosor: 6,65 mm. Hermético hasta 3 bares (~30 metros).',
+       descripcion : 'Tank Française watch, medium model, quartz movement. Steel case set with 26 brilliant-cut diamonds totalling 0.63 carats. Faceted crown set with a synthetic cabochon-shaped spinel. Silvered dial. Blued-steel sword-shaped hands. Sapphire crystal. Steel bracelet. Case dimensions: 30 mm x 25 mm, thickness: 7.08 mm. Water-resistant to 3 bar (approx. 30 metres).',
        popularidad: 5
    },
    
