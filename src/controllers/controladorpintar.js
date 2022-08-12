@@ -26,9 +26,9 @@ export function pintarProductos(productos){
     compra.classList.add("w-50","align-self-center", "text-center","btn", "btn-dark", "mb-3")
     compra.textContent = 'Añadir a la cesta'
 
-    let descripcion= document.createElement("p")
-    descripcion.classList.add("d-none")
-    descripcion.textContent = producto.descripcion
+    let Description= document.createElement("p")
+    Description.classList.add("d-none")
+    Description.textContent = producto.Description
 
     let popularidad = document.createElement("h3")
     popularidad.classList.add("d-none")
@@ -47,7 +47,7 @@ export function pintarProductos(productos){
     tarjeta.appendChild(nombreProducto)
     tarjeta.appendChild(precioProducto)
     tarjeta.appendChild(compra)
-    tarjeta.appendChild(descripcion)
+    tarjeta.appendChild(Description)
     tarjeta.appendChild(popularidad)
     columna.appendChild(tarjeta)
     fila.appendChild(columna)

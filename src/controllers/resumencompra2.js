@@ -56,7 +56,7 @@ function pesosDolares(valNum) {
       image.height = '200';
       imageCell.appendChild(image);
       let description = row.insertCell(2);
-      description.innerHTML = item.descripcion;
+      description.innerHTML = item.Description;
       let price = row.insertCell(3);
       price.innerHTML = item.precio;
       let quantityCell = row.insertCell(4);

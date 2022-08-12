@@ -24,8 +24,8 @@ nombre.textContent = producto.nombre
 let precio = document.getElementById('precio')
 precio.textContent = producto.precio
 
-let descripcion = document.getElementById('descripcion')
-descripcion.textContent = producto.descripcion
+let Description = document.getElementById('Description')
+Description.textContent = producto.Description
 
 //poner case
 let popularidad = document.getElementById('icono')
