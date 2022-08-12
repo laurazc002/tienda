@@ -89,7 +89,60 @@ export let productosBD = [
        fotos : ['https://firebasestorage.googleapis.com/v0/b/tiendatcc-bccd5.appspot.com/o/reloj10.webp?alt=media&token=4a31a8d4-3fc5-48a6-ab43-1b2dd3194f52','https://firebasestorage.googleapis.com/v0/b/tiendatcc-bccd5.appspot.com/o/reloj10...webp?alt=media&token=c81b7d27-df20-47c3-af87-46c193ef5068'],
        Description : 'Ballon Bleu de Cartier watch, 40 mm, mechanical movement with automatic winding, calibre 1847 MC. Steel case, fluted crown set with a synthetic cabochon-shaped spinel, dark grey sunray-brushed dial, silvered sword-shaped hands, sapphire crystal, interchangeable steel bracelet, calendar aperture at 3 o.clock. Thickness: 12.4 mm. Water-resistant to 3 bar (approx. 30 metres).',
        popularidad: 4
-   }
-   
+   },
+
+   {
+        nombre : 'SOLITAIRE 1895',
+        precio : '',
+        cantidad : '0',
+        fotos : ['https://firebasestorage.googleapis.com/v0/b/tiendatcc-bccd5.appspot.com/o/img1.webp?alt=media&token=22b6f419-3b84-47d0-acb5-0935dacc0eb6','https://firebasestorage.googleapis.com/v0/b/tiendatcc-bccd5.appspot.com/o/img1....webp?alt=media&token=c4e0b2c3-1aa1-410e-8270-e42a1a8a869e'],
+        Description : 'Solitaire 1895, yellow gold 750/1000, set with a brilliant-cut diamond available in 0.50-1.99 carats.',
+        popularidad: 5
+    },
+
+    {
+        nombre : 'SOLITAIRE 1895',
+        precio : '',
+        cantidad : '0',
+        fotos : ['https://firebasestorage.googleapis.com/v0/b/tiendatcc-bccd5.appspot.com/o/img2.webp?alt=media&token=025c0e80-3e87-4d04-a73f-649e71261822','https://firebasestorage.googleapis.com/v0/b/tiendatcc-bccd5.appspot.com/o/img2....webp?alt=media&token=f3528188-6f09-4a27-8aed-869c7fbf76f3'],
+        Description : 'Solitaire 1895, platinum 950/1000, set with a cushion-cut diamond centre stone available from 2.00 to 2.49 carats and from 3.00 to 3.99 carats',
+        popularidad: 4
+    },
+
+    {
+        nombre : 'SOLITAIRE 1895',
+        precio : '',
+        cantidad : '0',
+        fotos : ['https://firebasestorage.googleapis.com/v0/b/tiendatcc-bccd5.appspot.com/o/img3.webp?alt=media&token=da44097b-8978-46a0-8e99-c6ec7ca3c996','https://firebasestorage.googleapis.com/v0/b/tiendatcc-bccd5.appspot.com/o/img3.....webp?alt=media&token=4e3e87f9-7d2e-4b09-8596-f41ebfb82eab'],
+        Description : 'Solitaire 1895, platinum 950/1000, set with an emerald-cut emerald available from 1.00 to 1.99 carats, and paved with brilliant-cut diamonds.',
+        popularidad: 5
+    },
+
+    {
+        nombre : 'CARTIER DAMOUR BRACELET XS',
+        precio : '4.090.000',
+        cantidad : '0',
+        fotos : ['https://firebasestorage.googleapis.com/v0/b/tiendatcc-bccd5.appspot.com/o/img4.webp?alt=media&token=017318b3-c494-4c8e-ae68-16c400ee22c8','https://firebasestorage.googleapis.com/v0/b/tiendatcc-bccd5.appspot.com/o/img4....webp?alt=media&token=52550168-6fe5-4e8e-aa1d-efc8c5d93370'],
+        Description : 'Cartier dAmour bracelet, white gold 750/1000, set with a brilliant-cut diamond totalling 0.04 carats. Thickness: 1.78 mm. Diameter of the pattern: 3.79 mm. Length: 165 to 185 mm (for size 17).',
+        popularidad: 5
+    },
+
+    {
+        nombre : 'ETINCELLE DE CARTIER NECKLACE',
+        precio : '19.500.000',
+        cantidad : '0',
+        fotos : ['https://firebasestorage.googleapis.com/v0/b/tiendatcc-bccd5.appspot.com/o/img5.webp?alt=media&token=279c9e1a-d058-4851-88d6-a14ecc6d4ab0','https://firebasestorage.googleapis.com/v0/b/tiendatcc-bccd5.appspot.com/o/img5....webp?alt=media&token=75a51e7f-8a96-4808-bad8-8134b210c82d'],
+        Description : 'Etincelle de Cartier necklace, white gold 750/1000, set with 6 brilliant-cut diamonds totalling 0.26 carats.',
+        popularidad: 4
+    },
+
+    {
+        nombre : 'C DE CARTIER EARRINGS',
+        precio : '10.900.000',
+        cantidad : '0',
+        fotos : ['https://firebasestorage.googleapis.com/v0/b/tiendatcc-bccd5.appspot.com/o/img7.webp?alt=media&token=10168bf6-d9d6-4288-968b-1e46b5993558','https://firebasestorage.googleapis.com/v0/b/tiendatcc-bccd5.appspot.com/o/img7....webp?alt=media&token=f721a613-38c6-444c-a9e4-67bf06a83d49'],
+        Description : 'C de Cartier earrings, rose gold 750/1000, each set with an Akoya pearl.',
+        popularidad: 5
+    },
 
 ]
