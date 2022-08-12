@@ -21,13 +21,14 @@ contenedor.addEventListener('click', function(evento){
     
 console.log(producto)
 
-sessionStorage.setItem("infoProducto",JSON.stringify(producto))
-console.log(sessionStorage.getItem("infoProducto"))
+localStorage.setItem("infoProducto",JSON.stringify(producto))
+console.log(localStorage.getItem("infoProducto"))
 
 window.location.href = "./src/views/ampliarinfo.html"
 
 })
 
-
+let contador = localStorage.getItem('contador')
+document.getElementById('carritocontador').innerHTML = contador
 
 

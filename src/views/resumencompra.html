@@ -17,11 +17,11 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.3/font/bootstrap-icons.css">
     <link rel="stylesheet" href="../../assets/styles/tienda.css">
 </head>
-<body>
+<body class="fuente">
     <header class="animate__animated animate__backInLeft">
         <nav class="navbar navbar-expand-lg bg-light">
             <div class="container-fluid">
-              <a class="navbar-brand text-danger" href="#">Cartier</a>
+              <a class="navbar-brand" href="#"><img src="../../assets/img/Logo_Cartier_noir.png" alt="" class="h-25 w-25"></a>
               <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
               </button>
@@ -44,7 +44,7 @@
                   <li class="nav-item">
                     <a class="nav-link" aria-current="page" href="./resumencompra.html">
                       <i class="bi bi-bag fs-3"></i>
-                      <span class="position-absolute top-10 start-10 translate-middle badge rounded-pill bg-danger">
+                      <span class="position-absolute top-10 start-10 translate-middle badge rounded-pill bg-danger" id="carritocontador">
                         0
                       </span>
                     </i></a>
@@ -77,28 +77,28 @@
 
             
         </div>
-        <div class="container mb-5">
-          <div class="row justify-content-center">
-            <div class="col-12 col-md-3 text-center">
-              
-              <button type="button" class="btn btn-black" id="botonLimpiar">
-                <i class="bi bi-trash3"></i>
-                Limpiar</button>
+        
+        <section class="text-center border border-0 container text-danger" style="background-color: rgb(235, 235, 235);">
+          <h2 class="my-3 text-black">Conversor de moneda</h2>
+          <p class="">
+            <label>USD</label>
+            <input id="inputDolares" type="number" placeholder="Dolares" oninput="dolaresPesos(this.value)" onchange="dolaresPesos(this.value)">
+          </p>
+          <p class="">
+            <label>COP</label>
+            <input id="inputPesos" type="number" placeholder="Pesos Colombianos" oninput="pesosDolares(this.value)" onchange="pesosDolares(this.value)">
+          </p>
+          <div class="container mb-5">
+            <div class="row justify-content-center">
+              <div class="col-12 col-md-3 text-center">
+                
+                <button type="button" class="btn btn-black" id="botonLimpiar">
+                  <i class="bi bi-trash3"></i>
+                  Limpiar</button>
+              </div>
             </div>
           </div>
-        </div>
-
-<section class="text-center border border-3 container text-danger">
-<h2 class="my-3">Conversor de moneda</h2>
-<p class="">
-  <label>USD</label>
-  <input id="inputDolares" type="number" placeholder="Dolares" oninput="dolaresPesos(this.value)" onchange="dolaresPesos(this.value)">
-</p>
-<p class="">
-  <label>COP</label>
-  <input id="inputPesos" type="number" placeholder="Pesos Colombianos" oninput="pesosDolares(this.value)" onchange="pesosDolares(this.value)">
-</p>
-</section>
+        </section>
     </main>
 
     <section>

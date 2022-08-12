@@ -1,19 +1,21 @@
-console.log(JSON.parse(sessionStorage.getItem("infoProducto")))
-let producto = JSON.parse(sessionStorage.getItem('infoProducto'))
+console.log(JSON.parse(localStorage.getItem("infoProducto")))
+let producto = JSON.parse(localStorage.getItem('infoProducto'))
 
 
 let carrito
 //revisar si hay productos en el carrito
-if (JSON.parse(sessionStorage.getItem('carrito')) == null){
+if (JSON.parse(localStorage.getItem('carrito')) == null){
 
     carrito = []
 
-    }
-else{
-    carrito = JSON.parse(sessionStorage.getItem('carrito'))
+}else{
+    carrito = JSON.parse(localStorage.getItem('carrito'))
+    let contador = localStorage.getItem('contador')
+    document.getElementById('carritocontador').innerHTML = contador
+
 }
 
-console.log(JSON.parse(sessionStorage.getItem('carrito')))
+console.log(JSON.parse(localStorage.getItem('carrito')))
 
 let foto = document.getElementById('foto')
 foto.src = producto.foto
@@ -37,7 +39,7 @@ popularidad.textContent = producto.popularidad
 //let cantidad = document.getElementById('cantidad').value
 
 // agrego a un atributo (cantidad) al objeto producto
-producto.cantidad = cantidad
+//producto.cantidad = cantidad
 //console.log(producto)
 
 // Agrego la cantidad cuando el cliente seleccione añadir carrito
@@ -45,8 +47,11 @@ let botonagregar = document.getElementById('agregar')
 
 //agregamos carrito de compras
 
+let contadorcarrito = 0
+
 agregar.addEventListener('click', function(){
 
+    
     let alerta = document.getElementById('alerta')
     alerta.classList.remove('invisible')
 
@@ -54,18 +59,28 @@ agregar.addEventListener('click', function(){
         alerta.classList.add('invisible')
     },3000)
 
-    let cantidad = document.getElementById('cantidad').value
-    producto.cantidad = cantidad
+    /*let cantidad = document.getElementById('cantidad').value
+    producto.cantidad = cantidad*/
+    
 
     carrito.push(producto)
+    
+    //Longitud del arrgelo carrito(cuento cuntos elementos tiene mi arreglo)
+    contadorcarrito = carrito.length
+    localStorage.setItem('contador', contadorcarrito)
+    
 
-    // almaceno el carrito en el sessionStorage
-    sessionStorage.setItem('carrito',JSON.stringify(carrito))
+    // almaceno el carrito en el localStorage
+    localStorage.setItem('carrito',JSON.stringify(carrito))
 
     //recorrer el arreglo carrito y capturar la cantidad 
-    carrito.forEach(function(producto){
-        console.log(producto.cantidad)
-    })
+    //carrito.forEach(function(producto){
+        //console.log(producto.cantidad)
+    //})
+
+    let contador = localStorage.getItem('contador')
+    document.getElementById('carritocontador').innerHTML = contador
+    
 
 
 })

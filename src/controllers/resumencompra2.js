@@ -1,5 +1,5 @@
 //TRAER CARRITO
-let carrito=JSON.parse(sessionStorage.getItem("carrito"))
+let carrito=JSON.parse(localStorage.getItem("carrito"))
 console.log(carrito)
 
 
@@ -82,3 +82,7 @@ let botonLimpiar = document.getElementById('botonLimpiar')
 botonLimpiar.addEventListener("click", function(){
     clearProducts();
 })
+
+let contador = localStorage.getItem('contador')
+
+document.getElementById('carritocontador').innerHTML = contador
