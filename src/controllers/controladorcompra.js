@@ -1,3 +1,4 @@
+import{popular} from './popularidad.js'
 console.log(JSON.parse(localStorage.getItem("infoProducto")))
 let producto = JSON.parse(localStorage.getItem('infoProducto'))
 
@@ -31,7 +32,8 @@ Description.textContent = producto.Description
 
 //poner case
 let popularidad = document.getElementById('icono')
-popularidad.textContent = producto.popularidad
+//popularidad.textContent = producto.popularidad
+popular(producto.popularidad)
 
 // capturar la cantidad del producto seleccionado
 // capturamos el value del input

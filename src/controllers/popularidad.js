@@ -1,6 +1,6 @@
 let popularidad = document.getElementById('icono')
 
-export function popularidad(estrellas){
+export function popular(estrellas){
     
     switch (estrellas) {
         case '1':{
@@ -53,7 +53,7 @@ export function popularidad(estrellas){
               popularidad.appendChild(estrella3)
               popularidad.appendChild(estrella4) 
               
-              break
+              break;
            }
            
            case '5':
