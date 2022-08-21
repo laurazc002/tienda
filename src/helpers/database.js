@@ -103,7 +103,7 @@ export let productosBD = [
 
    {
         nombre : 'SOLITAIRE 1895',
-        precio : '',
+        precio : '21.000.000',
         cantidad : '0',
         fotos : ['https://firebasestorage.googleapis.com/v0/b/tiendatcc-bccd5.appspot.com/o/img1.webp?alt=media&token=22b6f419-3b84-47d0-acb5-0935dacc0eb6','https://firebasestorage.googleapis.com/v0/b/tiendatcc-bccd5.appspot.com/o/img1....webp?alt=media&token=c4e0b2c3-1aa1-410e-8270-e42a1a8a869e'],
         Description : 'Solitaire 1895, yellow gold 750/1000, set with a brilliant-cut diamond available in 0.50-1.99 carats.',
@@ -113,7 +113,7 @@ export let productosBD = [
 
     {
         nombre : 'SOLITAIRE 1895',
-        precio : '',
+        precio : '19.000.000',
         cantidad : '0',
         fotos : ['https://firebasestorage.googleapis.com/v0/b/tiendatcc-bccd5.appspot.com/o/img2.webp?alt=media&token=025c0e80-3e87-4d04-a73f-649e71261822','https://firebasestorage.googleapis.com/v0/b/tiendatcc-bccd5.appspot.com/o/img2....webp?alt=media&token=f3528188-6f09-4a27-8aed-869c7fbf76f3'],
         Description : 'Solitaire 1895, platinum 950/1000, set with a cushion-cut diamond centre stone available from 2.00 to 2.49 carats and from 3.00 to 3.99 carats',
@@ -123,7 +123,7 @@ export let productosBD = [
 
     {
         nombre : 'SOLITAIRE 1895',
-        precio : '',
+        precio : '20.000.000',
         cantidad : '0',
         fotos : ['https://firebasestorage.googleapis.com/v0/b/tiendatcc-bccd5.appspot.com/o/img3.webp?alt=media&token=da44097b-8978-46a0-8e99-c6ec7ca3c996','https://firebasestorage.googleapis.com/v0/b/tiendatcc-bccd5.appspot.com/o/img3.....webp?alt=media&token=4e3e87f9-7d2e-4b09-8596-f41ebfb82eab'],
         Description : 'Solitaire 1895, platinum 950/1000, set with an emerald-cut emerald available from 1.00 to 1.99 carats, and paved with brilliant-cut diamonds.',

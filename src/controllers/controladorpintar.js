@@ -53,8 +53,8 @@ export function pintarProductos(productos){
     fila.appendChild(columna)
 })
 
-
 }
+
 
 
 
