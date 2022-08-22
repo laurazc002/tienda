@@ -58,7 +58,7 @@ export function popular(estrellas){
            
            case '5':
               {
-              console.log(producto.popularidad)
+             
             let estrella1=document.createElement('i') 
               estrella1.classList.add('bi' ,'bi-star-fill')
             let estrella2=document.createElement('i') 

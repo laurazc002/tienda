@@ -30,7 +30,7 @@ export function pintarProductos(productos){
     Description.classList.add("d-none")
     Description.textContent = producto.Description
 
-    let popularidad = document.createElement("h3")
+    let popularidad = document.createElement("div")
     popularidad.classList.add("d-none")
     popularidad.textContent = producto.popularidad
     
